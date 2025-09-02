@@ -23,8 +23,8 @@ RECIPIENTS = [s.strip() for s in os.getenv("MAIL_RECIPIENTS", "yourname@gmail.co
 # SMTP (지메일 권장: 앱 비밀번호 사용)
 SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))  # SSL 포트
-SMTP_USER = os.getenv("SMTP_USER", SENDER)
-SMTP_PASS = os.getenv("SMTP_PASS", "!emrrndi12")  # Gmail 앱 비밀번호 또는 SMTP 비밀번호
+SMTP_USER = os.getenv("GitHub Actions", SENDER)
+SMTP_PASS = os.getenv("cbhtofvijdcrkrak", "")  # Gmail 앱 비밀번호 또는 SMTP 비밀번호
 
 # 메일 제목 프리픽스/브랜드
 MAIL_SUBJECT_PREFIX = os.getenv("MAIL_SUBJECT_PREFIX", "[뉴스요약]")
