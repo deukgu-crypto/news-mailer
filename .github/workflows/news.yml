@@ -17,8 +17,8 @@ jobs:
         env:
           NEWS_KEYWORDS: "노조법, 파업"
           NEWS_RECENCY_DAYS: "1"
-          MAIL_SENDER: "yourname@gmail.com"
-          MAIL_RECIPIENTS: "me@company.com"
+          MAIL_SENDER: "deukgu.kim@gmail.com"
+          MAIL_RECIPIENTS: "thedarkman@naver.com"
           SMTP_HOST: "smtp.gmail.com"
           SMTP_PORT: "465"
           SMTP_USER: "yourname@gmail.com"
